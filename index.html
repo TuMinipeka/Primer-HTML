@@ -1,24 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Daniel mayorga">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Receta artesanal de galletas: ingredientes y pasos para preparar galletas de chocolate.">
-    <meta property="og:type" content="website"> <!--le dice a Facebook/LinkedIn/WhatsApp que tu contenido es un sitio web (no un artículo, producto, etc.).-->
+    <link rel="stylesheet" href="css/estilo.css">
     <title>Restaurante_artesanal</title>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      margin: 40px auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+</style>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 2px dashed #300e42; /* Borde verde, estilo punteado */
+        padding: 8px;
+    }
+    th {
+        background-color: #0e970e; /* Fondo verde para encabezados */
+        color: rgba(0, 0, 0, 0.512); /* Texto en blanco */
+    }
+</style>
+
 </head>
 <body>
-    <h1>Receta De Galleta</h1>  
+    <h1  style="color: rgb(37, 11, 153); font-size: 18px;" >Receta De Galleta</h1>  
     <header> 
         <nav>
              <ul> Inicio </ul>
         </nav>
     </header>
-    <img src="media/img/Galleta.jpg" alt="Imagen de galleta horneada" title="Galleta De Chocolate">
-    <p> Aqui en la cocina encontraras recetas para tu cocina
-        que te sirviran como una guia en el mundo de la cocina :D
+    <img 
+    id="foto1"
+    class="foto-cocina" 
+    src="media/img/Galleta.jpg" 
+    alt="Imagen de galleta horneada" 
+    title="Galleta De Chocolate"
+    width="400"
+    height="300"
+    loading="lazy"
+    >
+    <p> 
+        <em>
+            Aqui en la cocina encontraras recetas para tu cocina te sirviran como una guia en el mundo de la cocina :D
+        </em> 
     </p>
+    
+    <section>
     <h2> Ingredientes </h2>
     <ul> 
         <li>Pasos Obligatorias:
@@ -36,28 +76,52 @@
             </ul>
         </li>
     </ul>
+    </section>
+    <section>
+        <h2>Preparacion </h2>
+        <ol type="I">
+            <li> Mezclar los ingredientes secos</li>
+            <li> Agregar los huevos, la mantequilla derretida con la esencia de vainilla </li>
+            <li> Formar pequeñas bolitas de masa y colocarlas en una bandeja para hornear.</li>
+            <li> Hornea a 180°C durante 15 minutos</li>
+            <li> Dejar enfriar y servir </li>
+        </ol>
+    </section>
+    <section>
+        <h2>¿Que nos diferencia las otras cocinas?</h2>
 
-    <h2>Preparacion </h2>
-    <ol type="I">
-        <li> Mezclar los ingredientes secos</li>
-        <li> Agregar los huevos, la mantequilla derretida con la esencia de vainilla </li>
-        <li> Formar pequeñas bolitas de masa y colocarlas en una bandeja para hornear.</li>
-        <li> Hornea a 180°C durante 15 minutos</li>
-        <li> Dejar enfriar y servir </li>
-    </ol>
-    <h2>¿Que nos diferencia las otras cocinas?</h2>
-
-    <dl>
-        <dt>Nosotros:</dt>
-        <dd>
-            Usamos <strong>Componentes 100% Naturales </strong> somos una cocina artesanal
-        </dd>
-        <dd> Nuestra cocina lo hace con el amor de mamá </dd>
-
-        <dt> Otras Cocinas:</dt>
-        <dd> Usan componentes De baja calidad </dd>
-        <dd> No lo hacen como nosotros lo hacemos</dd>
-    </dl>
+        <dl>
+            <dt>Nosotros:</dt>
+            <dd>
+                Usamos <strong>Componentes 100% Naturales </strong> somos una cocina artesanal
+            </dd>
+            <dd> Nuestra cocina lo hace con el amor de mamá </dd>
+            <dt> Otras Cocinas:</dt>
+            <dd> Usan componentes De baja calidad <br> No lo hacen como nosotros lo hacemos</dd>
+       
+        </dl>
+    </section>
+    <section>
+        <table style="width: 100%;">
+            <tr>
+                <th>Gaseosas</th>
+                <th>Precios</th>
+            </tr>
+            <tr>
+                <td>Big Cola</td>
+                <td>3000</td>
+            </tr>
+            <tr>
+                <td>Coca Cola</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td>Colombiana</td>
+                <td>4000</td>
+            </tr>
+        </table>
+    </section>
+    <base href="https://www.youtube.com/watch?v=hZ9wrNqFULE" b
 
     <footer>Todos los derechos han sido Reservados :P</footer>
 </body>
